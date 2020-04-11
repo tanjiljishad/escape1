@@ -1,0 +1,434 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Brandon Grotesque;
+    color: white;
+}
+
+header {
+    background-image: url('../images/banner.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 550px;
+}
+.wrapper {
+    width: 70%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.navbar {
+    padding: 30px 0;
+    margin-bottom: 113px;
+}
+.logo {
+   width: 20%;
+   float: left;
+}
+.icon {
+
+}
+.menu {
+   width: 78%;
+   float: right; 
+}
+.menu ul {
+   list-style: none;
+   float: right;
+   margin-top: 9px;
+}
+.menu ul li {
+    float: left;
+    margin-left: 80px;
+}
+.menu ul li a {
+    text-decoration: none;
+    font-family: Brandon Grotesque;
+    color: blanchedalmond;
+}
+.container {
+    width: 70%;
+    margin: 0 auto;
+    margin-left: 157px;
+}
+.container h3 {
+    margin-left: 126px;
+    font-weight: 300;
+    font-size: 25px;
+} 
+.container h1 {
+    margin-left: 50px;
+    margin-top: 27px;
+    font-size: 48px;
+}
+.container button {
+    width: 248px;
+    height: 72px;
+    border-radius: 15px;
+    cursor: pointer;
+    background: transparent;
+    color: blanchedalmond;
+    font-size: 23px;
+    margin-top: 80px;
+    margin-left: 247px;
+}
+
+.container button:hover {
+    background-color: #40202F;
+}
+section {
+    color: #777777;
+    padding-bottom: 60px;
+}
+
+.wrapper2 {
+    overflow: hidden;
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+.webdev {
+    margin-top: 70px;
+}
+
+.devtext {
+    width: 70%;
+    float:left;
+}
+
+.devtext h1 {
+    font-size: 60px;
+    font-weight: 900;
+    color: black;
+}
+.devtext p {
+    margin-top: 30px;
+}
+
+.lightfont {
+    font-weight: 300;
+}
+
+.devimg {
+    width: 23%;
+    float: right;
+    height: 264px;
+}
+.devimg img {
+    width: 100%;
+    height: 100%;
+}
+.branding {
+
+}
+
+.brandimg {
+    width: 23%;
+    float: left;
+    height: 264px;
+    margin-top: 56px;
+}
+.brandimg img {
+    width: 100%;
+    height: 100%;
+}
+
+.brandtext {
+    width: 70%;
+    float:right;
+    margin-top: 56px;
+}
+.brandtext h1 {
+    font-size: 60px;
+    font-weight: 900;
+    color: black;
+}
+.brandtext p {
+    margin-top: 30px;
+}
+
+.rows {
+    color: #777777 ;
+}
+
+.box {
+    width: 42%;
+    float: left;
+    margin-right: 80px;
+    margin-bottom: 40px;
+}
+.box:nth-child(even){
+    margin-right: 0;
+}
+.image {
+    float: left;
+    width: 53px;
+    height: 53px;
+    border-radius: 100px;
+    background-color: black;
+}
+.image img {
+    width: 37%;
+    margin: 16px;
+}
+.box1-img {
+    height: 23px;
+}
+
+.details {
+    width: 75%;
+    float: right;
+}
+.box-h {
+    font-size: 22px;
+    font-weight: 500;
+    color: black;
+}
+.box-des {
+
+}
+.client {
+    color: black;
+    text-align: center;
+    padding-bottom: 100px;
+}
+.headline {
+}
+.headline h1 {
+    font-size: 60px;
+}
+.headline h5 {
+     color: #777777;
+     font-size: 22px;
+     font-weight: 500;
+}
+.lightfont {
+}
+
+.comments {
+}
+
+.comment1 {
+    width: 100%;
+    height: 250px;
+    margin: 80px 0;
+}
+
+.com-img {
+    height: 220px;
+    width: 220px;
+    border-radius: 50%;
+    background-color: black;
+    float: left;
+    margin-right: 105px;
+}
+
+.comtext {
+    width: 86%;
+    padding-top: 46px;
+}
+.comtext p {
+    font-size: 26px;
+    font-weight: 400;
+    color: #777777;
+    margin-left: 28px;
+}
+.comtext h6 {
+    font-size: 20px;
+    font-weight: 400;
+    color: #777777;
+}
+
+.comment2 {
+    width: 100%;
+    height: 250px;
+    margin: 80px 0;
+}
+
+.com2-text {
+    width: 70%;
+    float: left;
+    padding-top: 46px;
+}
+.com2-text p {
+    font-size: 26px;
+    font-weight: 400;
+    color: #777777;
+    margin-left: 28px;
+}
+.com2-text h6 {
+    font-size: 20px;
+    font-weight: 400;
+    color: #777777;
+}
+
+.com2-img {
+    height: 220px;
+    width: 18%;
+    border-radius: 50%;
+    background-color: black;
+    float: right;
+    margin-left: 105px;
+}
+.brands {
+    text-align: center;
+}
+.brands ul {
+    list-style: none;
+    margin: 100px;
+}
+.brands ul li {
+    float: left; 
+}
+.brands ul li a {
+    display: inline-block;
+    margin-left: 17px;
+}
+
+.about-team {
+    background-color: black;
+    padding-bottom: 100px;
+}
+.about-team p {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.team-headline {
+    text-align: center;
+    padding-top: 80px;
+    margin-bottom: 60px
+}
+.team-headline h1 {
+    font-size: 60px;
+    font-weight: 800;
+}
+.team-headline h6 {
+    font-size: 22px;
+    font-weight: 300;
+}
+.team-profiles {
+    width: 125%;
+}
+
+.profile {
+    width: 30%;
+    float: left;
+}
+
+.profile-img {
+    width: 100px;
+    height: 100px;
+    border: 3px solid white;
+    border-radius: 50%;
+    margin-bottom: 40px;
+}
+.profile h6 {
+    font-size: 18px;
+    font-weight: 800;
+}
+.profile ul {
+    list-style: none;
+}
+.profile ul li {
+    float: left;
+    margin-left: 15px;
+    margin-top: 12px;
+}
+.profile ul li:first-child {
+    margin-left: 0px;
+}
+.profile ul li a {
+    display: inline-block;
+    border: 3px solid white;
+    width: 26px;
+    height: 30px;
+    border-radius: 50%;
+}
+.iconimg {
+    margin: 5px;
+    padding: 2px;
+}
+#username {
+}
+
+#email {
+}
+
+footer {
+    background-color: #7690C5;
+}
+.footer-container {
+    width: 46%;
+    float: left;
+    margin-right: 12px;
+}
+
+.container-text {
+    width: 80%;
+    margin-bottom: 20px;
+    padding-top: 20px;
+}
+.container-text h1 {
+    font-size: 60px;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+.container-text p {
+
+}
+
+.container-contact {
+}
+
+.contact-row {
+    width: 48%;
+    float: left;
+}
+.contact-row a {
+    display: block;
+    margin-bottom: 30px;
+    text-decoration: none;
+    color: white;
+} 
+
+.contact-row a img {
+    margin-right: 15px;
+}
+.mobile {
+    height: 23px;
+}
+.footer-form {
+    width: 46%;
+    float: right;
+    margin-top: 100px;
+}
+input {
+    font-family: Brandon Grotesque;
+    font-weight: 300;
+    width: 100%;
+    padding: 15px;
+    border: none;
+    border-radius: 8px;
+    padding-left: 35px;
+    margin-bottom: 16px;
+}
+textarea {
+    font-family: Brandon Grotesque;
+    font-weight: 300;
+    width: 100%;
+    height: 150px;
+    padding: 14px;
+    border: none;
+    border-radius: 9px;
+}
+
+.copyright {
+    text-align: center;
+    margin-top: 100px ;
+    padding-bottom: 100px;
+}
